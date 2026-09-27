@@ -6,7 +6,7 @@ import java.util.*;
 
 public class ApiClient {
 
-    private static final String BASE = "http://localhost:7777";
+    private static final String BASE = "http://localhost:7778";
 
     public List<CameraModel> getAllCameras() throws IOException {
         return parseList(sendGet("/api/cameras"));

@@ -13,7 +13,7 @@ public class main {
         cameracontroller controller = new cameracontroller(repo);
 
         // 3. Crée et lance le serveur HTTP
-        HttpServer server = new HttpServer(7777, controller);
+        HttpServer server = new HttpServer(7778, controller);
         server.start(); // bloquant : le programme reste ici
     }
 }
